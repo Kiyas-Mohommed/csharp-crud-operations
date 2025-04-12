@@ -1,0 +1,9 @@
+USE students_crud;
+
+CREATE TABLE login (
+	id INT PRIMARY KEY IDENTITY,
+	user_Name VARCHAR(25) UNIQUE NOT NULL,
+	password VARCHAR(25) NOT NULL
+);
+
+SELECT * FROM login;
